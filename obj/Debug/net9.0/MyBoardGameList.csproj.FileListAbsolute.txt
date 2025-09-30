@@ -31,3 +31,4 @@ E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\refint\MyBoardGa
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\MyBoardGameList.pdb
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\MyBoardGameList.genruntimeconfig.cache
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\ref\MyBoardGameList.dll
+E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\MyBoardGameList.sourcelink.json
