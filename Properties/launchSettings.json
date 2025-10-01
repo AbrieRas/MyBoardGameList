@@ -18,6 +18,16 @@
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:40443;http://localhost:40080"
     },
+    "Staging": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "BoardGames",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://*:55221;https://*:55222"
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

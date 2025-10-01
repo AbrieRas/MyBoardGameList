@@ -32,3 +32,4 @@ E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\MyBoardGameList.
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\MyBoardGameList.genruntimeconfig.cache
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\ref\MyBoardGameList.dll
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\obj\Debug\net9.0\MyBoardGameList.sourcelink.json
+E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList\bin\Debug\net9.0\appsettings.Staging.json
