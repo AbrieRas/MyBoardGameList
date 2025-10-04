@@ -1,0 +1,51 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MyBoardGameList_ApiVersion | v2",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/error": {
+      "get": {
+        "tags": [
+          "MyBoardGameList_ApiVersion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/error/test": {
+      "get": {
+        "tags": [
+          "MyBoardGameList_ApiVersion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/cod/test": {
+      "get": {
+        "tags": [
+          "MyBoardGameList_ApiVersion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "MyBoardGameList_ApiVersion"
+    }
+  ]
+}
