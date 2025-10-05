@@ -8,14 +8,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.OpenApi;
 using Asp.Versioning.Conventions;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddOpenApi();
+builder.Services.AddOpenApi();
 
 // CORS
 builder.Services.AddCors(options =>
@@ -32,6 +30,13 @@ builder.Services.AddCors(options =>
             cfg.AllowAnyOrigin();
             cfg.AllowAnyHeader();
             cfg.AllowAnyMethod();
+        });
+    options.AddPolicy(name: "AnyOrigin_GetOnly",
+        cfg =>
+        {
+            cfg.AllowAnyOrigin();
+            cfg.AllowAnyHeader();
+            cfg.WithMethods("GET");
         });
 });
 
@@ -96,7 +101,7 @@ app.MapGet("/v{version:ApiVersion}/error/test",
 app.MapGet("/v{version:ApiVersion}/cod/test",
     [ApiVersion("1.0")]
     [ApiVersion("2.0")]
-    [EnableCors("AnyOrigin")]
+    [EnableCors("AnyOrigin_GetOnly")]
     [ResponseCache(NoStore = true)] () =>
     Results.Text("<script>" +
         "window.alert('Your client supports JavaScript!" +

@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/BoardGames": {
+    "/v1/BoardGames": {
       "get": {
         "tags": [
           "BoardGames"
@@ -35,7 +35,7 @@
         }
       }
     },
-    "/error": {
+    "/v{version}/error": {
       "get": {
         "tags": [
           "MyBoardGameList_ApiVersion"
@@ -47,7 +47,7 @@
         }
       }
     },
-    "/error/test": {
+    "/v{version}/error/test": {
       "get": {
         "tags": [
           "MyBoardGameList_ApiVersion"
@@ -59,7 +59,7 @@
         }
       }
     },
-    "/cod/test": {
+    "/v{version}/cod/test": {
       "get": {
         "tags": [
           "MyBoardGameList_ApiVersion"

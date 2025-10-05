@@ -21,7 +21,7 @@
     "Staging": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "BoardGames",
+      "launchUrl": "v1/BoardGames",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Staging"
       },

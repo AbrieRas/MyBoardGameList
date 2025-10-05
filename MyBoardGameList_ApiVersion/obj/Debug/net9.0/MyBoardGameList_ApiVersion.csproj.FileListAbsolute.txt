@@ -36,3 +36,4 @@ E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\refin
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\MyBoardGameList_ApiVersion.pdb
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\MyBoardGameList_ApiVersion.genruntimeconfig.cache
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\ref\MyBoardGameList_ApiVersion.dll
+E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\MyBoardGameList_ApiVersion.sourcelink.json

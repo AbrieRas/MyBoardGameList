@@ -7,6 +7,7 @@ namespace MyBoardGameList.Controllers.v1
     [Route("v{version:apiVersion}/[controller]")]
     [ApiController]
     [ApiVersion("1.0")]
+    [ResponseCache(Location = ResponseCacheLocation.None, NoStore = true)]
     public class BoardGamesController : ControllerBase
     {
         private readonly ILogger<BoardGamesController> _logger;
