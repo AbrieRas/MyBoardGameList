@@ -88,5 +88,33 @@
       }
     ],
     "EndpointName": "GetBoardGames"
+  },
+  {
+    "ContainingType": "MyBoardGameList.Controllers.v2.CodeOnDemandController",
+    "Method": "GetJavaScriptStatus",
+    "RelativePath": "v2/CodeOnDemand/GetJavaScriptStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "Test"
+  },
+  {
+    "ContainingType": "MyBoardGameList.Controllers.v2.CodeOnDemandController",
+    "Method": "GetJavaScriptStatusWithMinutes",
+    "RelativePath": "v2/CodeOnDemand/GetJavaScriptStatusWithMinutes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addMinutes",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Test2"
   }
 ]

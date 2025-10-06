@@ -2,39 +2,22 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyBoardGameList.Controllers.v2
+namespace MyBoardGameList.Controllers.v3
 {
     [Route("v{version:apiVersion}/[controller]/[action]")]
     [ApiController]
-    [ApiVersion("2.0")]
+    [ApiVersion("3.0")]
     public class CodeOnDemandController : ControllerBase
     {
-        [HttpGet(Name = "Test")]
-        [EnableCors("AnyOrigin_GetOnly")]
-        [ResponseCache(NoStore = true)]
-        public ContentResult Test()
-        {
-            string script = "<script>" +
-                    "window.alert('Your client supports JavaScript!" +
-                    "\\r\\n\\r\\n" +
-                    $"Server time (UTC): {DateTime.UtcNow.ToString("o")}" +
-                    "\\r\\n" +
-                    "Client time (UTC): ' + new Date().toISOString());" +
-                "</script>" +
-                "<noscript>Your client does not support JavaScript</noscript>";
-
-            return Content(script, "text/html");
-        }
-
         [HttpGet(Name = "Test2")]
         [EnableCors("AnyOrigin_GetOnly")]
         [ResponseCache(NoStore = true)]
-        public ContentResult Test2(int? addMinutes = null)
+        public ContentResult Test2(int? minutesToAdd = null)
         {
             DateTime dateTime = DateTime.UtcNow;
-            if (addMinutes.HasValue)
+            if (minutesToAdd.HasValue)
             {
-                dateTime.AddMinutes(addMinutes.Value);
+                dateTime.AddMinutes(minutesToAdd.Value);
             }
 
             string script = "<script>" +
