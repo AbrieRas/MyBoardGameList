@@ -1,6 +1,7 @@
 ﻿using Asp.Versioning;
 using Microsoft.AspNetCore.Mvc;
 using MyBoardGameList.DTO.v2;
+using MyBoardGameList.Models;
 
 namespace MyBoardGameList.Controllers.v2
 {

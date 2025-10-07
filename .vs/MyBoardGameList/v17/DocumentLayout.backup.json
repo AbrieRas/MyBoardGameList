@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\controllers\\v2\\codeondemandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\controllers\\v2\\codeondemandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\controllers\\v2\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\controllers\\v2\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\models\\boardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\models\\boardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\controllers\\v1\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\controllers\\v1\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\boardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\boardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\controllers\\v2\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\controllers\\v2\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\controllers\\v2\\codeondemandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\controllers\\v2\\codeondemandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\controllers\\v3\\codeondemandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\controllers\\v3\\codeondemandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\myboardgamelist_apiversion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\myboardgamelist_apiversion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|solutionrelative:myboardgamelist_apiversion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\dto\\v2\\restdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,19 +63,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BoardGame.cs",
+              "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\BoardGame.cs",
+              "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\BoardGame.cs",
+              "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\BoardGame.cs",
+              "RelativeToolTip": "MyBoardGameList_ApiVersion\\Models\\BoardGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:17:31.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\DbContext.cs",
+              "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\DbContext.cs",
+              "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\DbContext.cs",
+              "RelativeToolTip": "MyBoardGameList_ApiVersion\\Models\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:05:10.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CodeOnDemandController.cs",
+              "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v3\\CodeOnDemandController.cs",
+              "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v3\\CodeOnDemandController.cs",
+              "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v3\\CodeOnDemandController.cs",
+              "RelativeToolTip": "MyBoardGameList_ApiVersion\\Controllers\\v3\\CodeOnDemandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T06:56:20.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CodeOnDemandController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v2\\CodeOnDemandController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v2\\CodeOnDemandController.cs",
               "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v2\\CodeOnDemandController.cs",
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\Controllers\\v2\\CodeOnDemandController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T19:41:30.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Properties\\launchSettings.json",
@@ -75,7 +122,8 @@
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-04T16:09:06.682Z"
+              "WhenOpened": "2025-10-04T16:09:06.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,34 +133,22 @@
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj",
               "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj",
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-04T12:57:33.315Z"
+              "WhenOpened": "2025-10-04T12:57:33.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Program.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Program.cs",
               "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Program.cs",
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAIBJwHQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T07:03:22.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BoardGame.cs",
-              "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\BoardGame.cs",
-              "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\BoardGame.cs",
-              "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\BoardGame.cs",
-              "RelativeToolTip": "MyBoardGameList_ApiVersion\\BoardGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T07:03:20.682Z",
               "EditorCaption": ""
             },
             {
@@ -123,27 +159,27 @@
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v2\\BoardGamesController.cs",
               "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v2\\BoardGamesController.cs",
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\Controllers\\v2\\BoardGamesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T07:03:17.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BoardGamesController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v1\\BoardGamesController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v1\\BoardGamesController.cs",
               "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v1\\BoardGamesController.cs",
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\Controllers\\v1\\BoardGamesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T07:03:13.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RestDTO.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\DTO\\v2\\RestDTO.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\DTO\\v2\\RestDTO.cs",
@@ -151,11 +187,12 @@
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\DTO\\v2\\RestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T07:03:01.222Z"
+              "WhenOpened": "2025-10-04T07:03:01.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "RestDTO.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\DTO\\v1\\RestDTO.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\DTO\\v1\\RestDTO.cs",
@@ -163,11 +200,12 @@
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\DTO\\v1\\RestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T07:02:30.072Z"
+              "WhenOpened": "2025-10-04T07:02:30.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LinkDTO.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\DTO\\v1\\LinkDTO.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\DTO\\v1\\LinkDTO.cs",
@@ -175,7 +213,8 @@
               "RelativeToolTip": "MyBoardGameList_ApiVersion\\DTO\\v1\\LinkDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T07:02:33.762Z"
+              "WhenOpened": "2025-10-04T07:02:33.762Z",
+              "EditorCaption": ""
             }
           ]
         }
