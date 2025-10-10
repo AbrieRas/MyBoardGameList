@@ -161,7 +161,6 @@ E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\stati
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\staticwebassets.build.json.cache
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\staticwebassets.development.json
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\MyBoardG.67FB8D31.Up2Date
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\MyBoardGameList_ApiVersion.dll
 E:\Dev\C#\.NET\MyBoardGameList\MyBoardGameList_ApiVersion\obj\Debug\net9.0\refint\MyBoardGameList_ApiVersion.dll
