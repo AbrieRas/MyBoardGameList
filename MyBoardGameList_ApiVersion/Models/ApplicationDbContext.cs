@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyBoardGameList.Models;
 using System.Runtime.CompilerServices;
+using System.Linq;
 
 namespace MyBoardGameList.Models
 {

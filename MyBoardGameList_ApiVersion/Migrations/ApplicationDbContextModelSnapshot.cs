@@ -30,6 +30,10 @@ namespace MyBoardGameList_ApiVersion.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AlternateNames")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
                     b.Property<int>("BGGRank")
                         .HasColumnType("int");
 
@@ -39,6 +43,13 @@ namespace MyBoardGameList_ApiVersion.Migrations
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Designer")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<int>("Flags")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("LastModifiedDate")
                         .HasColumnType("datetime2");
@@ -63,6 +74,9 @@ namespace MyBoardGameList_ApiVersion.Migrations
                     b.Property<int>("PlayTime")
                         .HasColumnType("int");
 
+                    b.Property<int?>("PublisherId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("RatingAverage")
                         .HasPrecision(4, 2)
                         .HasColumnType("decimal(4,2)");
@@ -75,7 +89,24 @@ namespace MyBoardGameList_ApiVersion.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("PublisherId");
+
                     b.ToTable("BoardGames");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.BoardGames_Categories", b =>
+                {
+                    b.Property<int>("BoardGameId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BoardGameId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("BoardGames_Categories");
                 });
 
             modelBuilder.Entity("MyBoardGameList.Models.BoardGames_Domains", b =>
@@ -114,7 +145,7 @@ namespace MyBoardGameList_ApiVersion.Migrations
                     b.ToTable("BoardGames_Mechanics");
                 });
 
-            modelBuilder.Entity("MyBoardGameList.Models.Domain", b =>
+            modelBuilder.Entity("MyBoardGameList.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -130,6 +161,37 @@ namespace MyBoardGameList_ApiVersion.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.Domain", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Flags")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("LastModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Notes")
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -149,6 +211,37 @@ namespace MyBoardGameList_ApiVersion.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Flags")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("LastModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Notes")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Mechanics");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.Publisher", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("LastModifiedDate")
                         .HasColumnType("datetime2");
 
@@ -159,7 +252,35 @@ namespace MyBoardGameList_ApiVersion.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Mechanics");
+                    b.ToTable("Publishers");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.BoardGame", b =>
+                {
+                    b.HasOne("MyBoardGameList.Models.Publisher", "Publisher")
+                        .WithMany("BoardGames")
+                        .HasForeignKey("PublisherId");
+
+                    b.Navigation("Publisher");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.BoardGames_Categories", b =>
+                {
+                    b.HasOne("MyBoardGameList.Models.BoardGame", "BoardGame")
+                        .WithMany("BoardGames_Categories")
+                        .HasForeignKey("BoardGameId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MyBoardGameList.Models.Category", "Category")
+                        .WithMany("BoardGames_Categories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("BoardGame");
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("MyBoardGameList.Models.BoardGames_Domains", b =>
@@ -202,9 +323,16 @@ namespace MyBoardGameList_ApiVersion.Migrations
 
             modelBuilder.Entity("MyBoardGameList.Models.BoardGame", b =>
                 {
+                    b.Navigation("BoardGames_Categories");
+
                     b.Navigation("BoardGames_Domains");
 
                     b.Navigation("BoardGames_Mechanics");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.Category", b =>
+                {
+                    b.Navigation("BoardGames_Categories");
                 });
 
             modelBuilder.Entity("MyBoardGameList.Models.Domain", b =>
@@ -215,6 +343,11 @@ namespace MyBoardGameList_ApiVersion.Migrations
             modelBuilder.Entity("MyBoardGameList.Models.Mechanic", b =>
                 {
                     b.Navigation("BoardGames_Mechanics");
+                });
+
+            modelBuilder.Entity("MyBoardGameList.Models.Publisher", b =>
+                {
+                    b.Navigation("BoardGames");
                 });
 #pragma warning restore 612, 618
         }

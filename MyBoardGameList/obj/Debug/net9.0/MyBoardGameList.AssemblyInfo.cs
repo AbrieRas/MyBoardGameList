@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("89e8e786-0842-494a-818c-c1cf00375477")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyBoardGameList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9da52bc64fb6f6b1cd414d19e855aa3cbd29a14f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8439601298e6c70f57a2fc33bbd638502a47e250")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyBoardGameList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyBoardGameList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
