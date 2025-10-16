@@ -32,7 +32,7 @@ namespace MyBoardGameList.Controllers
 
         [HttpPut(Name = "Seed")]
         [ResponseCache(NoStore = true)]
-        public async Task<IActionResult> Put()
+        public async Task<IActionResult> Put(int? id = null)
         {
             // SETUP
             var config = new CsvConfiguration(CultureInfo.GetCultureInfo("pt-BR"))
@@ -55,7 +55,8 @@ namespace MyBoardGameList.Controllers
             {
                 if (!record.ID.HasValue
                     || string.IsNullOrEmpty(record.Name)
-                    || existingBoardGames.ContainsKey(record.ID.Value))
+                    || existingBoardGames.ContainsKey(record.ID.Value)
+                    || (id.HasValue && id.Value != record.ID.Value))
                 {
                     skippedRows++;
                     continue;
