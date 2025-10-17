@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\controllers\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist\\attributes\\sortcolumnvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\attributes\\sortcolumnvalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist\\attributes\\sortordervalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\attributes\\sortordervalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist\\dto\\boardgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\dto\\boardgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist\\dto\\restdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\dto\\restdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist\\dto\\boardgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19F99D12-E8D0-4FEE-86BC-24AFF38AF6F5}|MyBoardGameList\\MyBoardGameList.csproj|solutionrelative:myboardgamelist\\dto\\boardgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2A8FBAB-BBAF-4431-989F-F5BBB8F3772A}|MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj|e:\\dev\\c#\\.net\\myboardgamelist\\myboardgamelist_apiversion\\models\\mechanic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,8 +110,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SortColumnValidatorAttribute.cs",
+              "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Attributes\\SortColumnValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "MyBoardGameList\\Attributes\\SortColumnValidatorAttribute.cs",
+              "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Attributes\\SortColumnValidatorAttribute.cs",
+              "RelativeToolTip": "MyBoardGameList\\Attributes\\SortColumnValidatorAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T04:20:15.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortOrderValidatorAttribute.cs",
+              "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Attributes\\SortOrderValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "MyBoardGameList\\Attributes\\SortOrderValidatorAttribute.cs",
+              "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Attributes\\SortOrderValidatorAttribute.cs",
+              "RelativeToolTip": "MyBoardGameList\\Attributes\\SortOrderValidatorAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T04:02:56.664Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -114,12 +148,11 @@
               "RelativeToolTip": "MyBoardGameList\\DTO\\BoardGameDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:12:03.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T04:12:03.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RestDTO.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\DTO\\RestDTO.cs",
               "RelativeDocumentMoniker": "MyBoardGameList\\DTO\\RestDTO.cs",
@@ -127,12 +160,11 @@
               "RelativeToolTip": "MyBoardGameList\\DTO\\RestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:55:36.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T14:55:36.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SeedController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Controllers\\SeedController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList\\Controllers\\SeedController.cs",
@@ -140,12 +172,11 @@
               "RelativeToolTip": "MyBoardGameList\\Controllers\\SeedController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAqwDgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:50:04.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:50:04.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BggRecord.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Models\\Csv\\BggRecord.cs",
               "RelativeDocumentMoniker": "MyBoardGameList\\Models\\Csv\\BggRecord.cs",
@@ -157,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MyBoardGameList.csproj",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\MyBoardGameList.csproj",
               "RelativeDocumentMoniker": "MyBoardGameList\\MyBoardGameList.csproj",
@@ -169,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Program.cs",
               "RelativeDocumentMoniker": "MyBoardGameList\\Program.cs",
@@ -181,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MyBoardGameList\\Models\\ApplicationDbContext.cs",
@@ -199,14 +230,14 @@
               "RelativeDocumentMoniker": "MyBoardGameList\\Controllers\\BoardGamesController.cs",
               "ToolTip": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList\\Controllers\\BoardGamesController.cs",
               "RelativeToolTip": "MyBoardGameList\\Controllers\\BoardGamesController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAAAIMAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T03:58:28.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\Category.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\Category.cs",
@@ -218,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Publisher.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\Publisher.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\Publisher.cs",
@@ -230,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "BoardGames_Mechanics.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\BoardGames_Mechanics.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\BoardGames_Mechanics.cs",
@@ -242,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "BoardGames_Domains.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\BoardGames_Domains.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\BoardGames_Domains.cs",
@@ -254,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Program.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Program.cs",
@@ -266,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "BoardGames_Categories.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\BoardGames_Categories.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\BoardGames_Categories.cs",
@@ -278,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Mechanic.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\Mechanic.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\Mechanic.cs",
@@ -290,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Domain.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\Domain.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\Domain.cs",
@@ -302,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "BoardGame.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\BoardGame.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\BoardGame.cs",
@@ -314,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Models\\ApplicationDbContext.cs",
@@ -326,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CodeOnDemandController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v3\\CodeOnDemandController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v3\\CodeOnDemandController.cs",
@@ -338,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CodeOnDemandController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v2\\CodeOnDemandController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v2\\CodeOnDemandController.cs",
@@ -350,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "MyBoardGameList_ApiVersion.csproj",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\MyBoardGameList_ApiVersion.csproj",
@@ -362,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "BoardGamesController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v2\\BoardGamesController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v2\\BoardGamesController.cs",
@@ -374,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "BoardGamesController.cs",
               "DocumentMoniker": "E:\\Dev\\C#\\.NET\\MyBoardGameList\\MyBoardGameList_ApiVersion\\Controllers\\v1\\BoardGamesController.cs",
               "RelativeDocumentMoniker": "MyBoardGameList_ApiVersion\\Controllers\\v1\\BoardGamesController.cs",

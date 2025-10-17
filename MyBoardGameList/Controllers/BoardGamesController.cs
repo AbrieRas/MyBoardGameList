@@ -3,6 +3,8 @@ using MyBoardGameList.DTO;
 using Microsoft.EntityFrameworkCore;
 using MyBoardGameList.Models;
 using System.Linq.Dynamic.Core;
+using System.ComponentModel.DataAnnotations;
+using MyBoardGameList.Attributes;
 
 namespace MyBoardGameList.Controllers
 {
@@ -26,9 +28,9 @@ namespace MyBoardGameList.Controllers
         [ResponseCache(Location = ResponseCacheLocation.Any, Duration = 60)]
         public async Task<RestDTO<BoardGame[]>> Get(
             int pageIndex = 0,
-            int pageSize = 10,
-            string? sortColumn = "Name",
-            string? sortOrder = "ASC",
+            [Range(1, 100)] int pageSize = 10,
+            [SortColumnValidator(typeof(BoardGameDTO))] string? sortColumn = "Name",
+            [SortOrderValidator] string? sortOrder = "ASC",
             string? filterQuery = null
         )
         {
@@ -116,10 +118,10 @@ namespace MyBoardGameList.Controllers
 
         [HttpDelete(Name = "DeleteBoardGame")]
         [ResponseCache(NoStore = true)]
-        public async Task<RestDTO<BoardGame?>> Delete(string ids)
+        public async Task<RestDTO<BoardGame[]?>> Delete(string ids)
         {
             var idArray = ids.Split(',').Select(x => int.Parse(x));
-            var deleteBoardGameList = new List<BoardGame>();
+            var deletedBoardGameList = new List<BoardGame>();
 
             foreach (int id in idArray)
             {
@@ -128,7 +130,7 @@ namespace MyBoardGameList.Controllers
                     .FirstOrDefaultAsync();
                 if (boardGame != null)
                 {
-                    deleteBoardGameList.Add(boardGame);
+                    deletedBoardGameList.Add(boardGame);
                     _context.BoardGames.Remove(boardGame);
                     await _context.SaveChangesAsync();
                 };
@@ -136,14 +138,14 @@ namespace MyBoardGameList.Controllers
 
             return new RestDTO<BoardGame[]?>()
             {
-                Data = deleteBoardGameList.Count > 0 ? deleteBoardGameList.ToArray() : null,
+                Data = deletedBoardGameList.Count > 0 ? deletedBoardGameList.ToArray() : null,
                 Links = new List<LinkDTO>
                     {
                         new LinkDTO(
                             Url.Action(
                                 null,
                                 "BoardGames",
-                                id,
+                                ids,
                                 Request.Scheme)!,
                             "self",
                             "DELETE"),
