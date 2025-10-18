@@ -27,41 +27,37 @@ namespace MyBoardGameList.Controllers
         [HttpGet(Name = "GetBoardGames")]
         [ResponseCache(Location = ResponseCacheLocation.Any, Duration = 60)]
         public async Task<RestDTO<BoardGame[]>> Get(
-            int pageIndex = 0,
-            [Range(1, 100)] int pageSize = 10,
-            [SortColumnValidator(typeof(BoardGameDTO))] string? sortColumn = "Name",
-            [SortOrderValidator] string? sortOrder = "ASC",
-            string? filterQuery = null
+            [FromQuery] RequestDTO<BoardGameDTO> input
         )
         {
             // Handle DbSet as an IQueryable object
             var query = _context.BoardGames.AsQueryable();
 
             // Conditionally apply filtering
-            if (!string.IsNullOrEmpty(filterQuery))
-                query = query.Where(b => b.Name.StartsWith(filterQuery));
+            if (!string.IsNullOrEmpty(input.FilterQuery))
+                query = query.Where(b => b.Name.StartsWith(input.FilterQuery));
 
             // Determine record count before pagination
             var recordCount = await query.CountAsync();
 
             // Apply sorting and pagination
             query = query
-                .OrderBy($"{sortColumn} {sortOrder}")
-                .Skip(pageIndex * pageSize)
-                .Take(pageSize);
+                .OrderBy($"{input.SortColumn} {input.SortOrder}")
+                .Skip(input.PageIndex * input.PageSize)
+                .Take(input.PageSize);
 
             return new RestDTO<BoardGame[]>()
             {
                 Data = await query.ToArrayAsync(),
-                PageIndex = pageIndex,
-                PageSize = pageSize,
+                PageIndex = input.PageIndex,
+                PageSize = input.PageSize,
                 RecordCount = recordCount,
                 Links = new List<LinkDTO> {
                         new LinkDTO(
                             Url.Action(
                                 null,
                                 "BoardGames",
-                                new { pageIndex, pageSize },
+                                new { input.PageIndex, input.PageSize },
                                 Request.Scheme
                             )!,
                             "self",
